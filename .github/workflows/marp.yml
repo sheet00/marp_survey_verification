@@ -25,6 +25,5 @@ jobs:
           target_branch: main
           build_dir: .
           keep_history: false
-          create_branch: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
